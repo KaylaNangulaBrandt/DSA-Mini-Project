@@ -1,9 +1,8 @@
 public class Main {
     public static void main(String[] args) {
 
-        // ============================================================
+    
         // TASK A1: QUEUE
-        // ============================================================
         System.out.println("========== TASK A1: QUEUE ==========");
 
         Queue q = new Queue(10);
@@ -34,9 +33,9 @@ public class Main {
         System.out.println("\n--- Is queue empty? ---");
         System.out.println(q.isEmpty());
 
-        // ============================================================
+       
         // TASK A2: SINGLY LINKED LIST
-        // ============================================================
+        
         System.out.println("\n\n========== TASK A2: LINKED LIST ==========");
 
         StudentLinkedList list = new StudentLinkedList();
