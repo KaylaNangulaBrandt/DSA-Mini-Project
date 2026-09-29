@@ -11,7 +11,7 @@ public class ArrayStatistics {
         int lowestServiceTime = serviceTimes[0];
         int countLongerThan10 = 0;
 
-        // Algorithmic traversal - no built-in max(), min(), or sum()
+        // Algorithmic traversal no built in max(), min(), or sum()
         for (int i = 0; i < serviceTimes.length; i++) {
             totalStudents = totalStudents + 1;
             totalServiceTime = totalServiceTime + serviceTimes[i];
